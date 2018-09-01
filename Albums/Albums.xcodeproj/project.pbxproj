@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84EE1C12139F7C000483D73 /* exampleAlbum.json in Resources */ = {isa = PBXBuildFile; fileRef = F84EE1C02139F7C000483D73 /* exampleAlbum.json */; };
+		F84EE1C4213A035F00483D73 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EE1C3213A035F00483D73 /* Album.swift */; };
 		F8CB9EFC2139EDD8007E42DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9EFB2139EDD8007E42DB /* AppDelegate.swift */; };
 		F8CB9F012139EDD8007E42DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CB9EFF2139EDD8007E42DB /* Main.storyboard */; };
 		F8CB9F032139EDD9007E42DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CB9F022139EDD9007E42DB /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F84EE1C02139F7C000483D73 /* exampleAlbum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exampleAlbum.json; path = ../../exampleAlbum.json; sourceTree = "<group>"; };
+		F84EE1C3213A035F00483D73 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		F8CB9EF82139EDD8007E42DB /* Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CB9EFB2139EDD8007E42DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8CB9F002139EDD8007E42DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F84EE1C2213A032C00483D73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F84EE1C3213A035F00483D73 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F8CB9EEF2139EDD8007E42DB = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +75,10 @@
 				F8CB9F022139EDD9007E42DB /* Assets.xcassets */,
 				F8CB9F042139EDD9007E42DB /* LaunchScreen.storyboard */,
 				F8CB9F072139EDD9007E42DB /* Info.plist */,
+				F84EE1C2213A032C00483D73 /* Model */,
 				F8CB9F0D2139EE38007E42DB /* ViewControllers */,
 				F8CB9F122139F57E007E42DB /* Cells */,
+				F84EE1C02139F7C000483D73 /* exampleAlbum.json */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -146,6 +160,7 @@
 			files = (
 				F8CB9F062139EDD9007E42DB /* LaunchScreen.storyboard in Resources */,
 				F8CB9F032139EDD9007E42DB /* Assets.xcassets in Resources */,
+				F84EE1C12139F7C000483D73 /* exampleAlbum.json in Resources */,
 				F8CB9F012139EDD8007E42DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +176,7 @@
 				F8CB9EFC2139EDD8007E42DB /* AppDelegate.swift in Sources */,
 				F8CB9F112139F0B4007E42DB /* AlbumDetailTableViewController.swift in Sources */,
 				F8CB9F0F2139EEB8007E42DB /* AlbumTableViewController.swift in Sources */,
+				F84EE1C4213A035F00483D73 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
